@@ -23,6 +23,7 @@ while (my @row = $sth->fetchrow_array()) {
 	print "Enter your choice :";
 	$choice=<>;
 	chomp($choice);
+	shdvsvh
 }else
 {
 	print "Wrong password";
